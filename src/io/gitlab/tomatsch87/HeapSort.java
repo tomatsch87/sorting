@@ -52,7 +52,7 @@ public class HeapSort implements StringSort{
 
     /*Einfacher Unit-Test der Methode sort() auf korrekte Funktionalität über das Terminal
       Weitere J-Unit Testcases sind in der Datei HeapSortTest.java zu finden*/
-    System.out.println("Einfache Unit-Test der Methode sort meiner Heapsortvariante aus Aufgabe 1: "+"\n");
+    System.out.println("Einfache Unit-Test der Methode sort meiner Heapsortvariante: "+"\n");
     String[] a = {"Z", "Y", "X", "W", "V", "U", "T", "S", "R", "Q", "P", "O", "N", "M", "L", "K", "J", "I", "H", "G", "F", "E", "D", "C", "B", "A"};
     String[] b = {"Eifersucht", "ist", "eine", "Leidenschaft", "die", "mit", "Eifer", "sucht", "was", "Leiden", "schafft"};
     String[] c = {"Ich", "bin", "ein", "Teil", "von", "jener", "Kraft", "Die", "stets", "das", "Böse", "will", "und", "stets", "das", "Gute", "schafft"};
@@ -110,13 +110,13 @@ public class HeapSort implements StringSort{
 
     /*Einfache Unit-Tests auf dem Terminal für die Methode genRandomString()
       Diese ist als Default-Methode in StringSort.java implementiert*/
-    System.out.println("Aufruf der Methode genRandomString aus Aufgabe 2: "+"\n");
+    System.out.println("Aufruf der Methode genRandomString: "+"\n");
     System.out.println(hs.genRandomString(16)+"\n");
     System.out.println(hs.genRandomString(32)+"\n");
     System.out.println(hs.genRandomString(128)+"\n\n");
 
     //Laufzeittests mit Arrays von verschiedener Größe, die zufällige 16-stellige Strings enthalten
-    System.out.println("Aufruf der Methode runtimeTest, welche für Aufgabe 3 entwickelt wurde: "+"\n");
+    System.out.println("Aufruf der Methode runtimeTest: "+"\n");
     hs.runtimeTest(16);
   }
 }
