@@ -1,3 +1,7 @@
 # Sorting Algorithms
 
-A HeapSort implementation in Java and did some benchmarking using random strings.
+A HeapSort implementation in Java with some benchmarking using random strings.
+
+## Benchmark
+
+!(Benchmark)[Benchmark.png]
